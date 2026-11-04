@@ -15,6 +15,17 @@
         <p>A log of interesting projects worth keeping an eye on.</p>
       </header>
       <p class="sample-note">Example entries — replace these with your own starred repositories.</p>
+      <div class="search">
+        <label for="repo-search">Search repositories</label>
+        <input
+          id="repo-search"
+          class="search-input"
+          type="search"
+          placeholder="Search by name, owner, description, or language"
+          autocomplete="off"
+          disabled
+        >
+      </div>
       <p id="repo-status" class="status" role="status" aria-live="polite">Loading repositories…</p>
       <ul id="repo-list" class="repo-list" aria-label="Starred repositories"></ul>
     </main>
