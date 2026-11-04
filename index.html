@@ -2,10 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Stargazers log 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starred repositories</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazers log 1</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="page">
+      <header class="page-header">
+        <p class="eyebrow">Stargazers log</p>
+        <h1>Starred repositories</h1>
+        <p>A log of interesting projects worth keeping an eye on.</p>
+      </header>
+      <p class="sample-note">Example entries — replace these with your own starred repositories.</p>
+      <p id="repo-status" class="status" role="status" aria-live="polite">Loading repositories…</p>
+      <ul id="repo-list" class="repo-list" aria-label="Starred repositories"></ul>
+    </main>
   </body>
 </html>

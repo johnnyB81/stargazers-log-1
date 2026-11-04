@@ -1,0 +1,26 @@
+[
+  {
+    "name": "awesome",
+    "owner": "sindresorhus",
+    "url": "https://github.com/sindresorhus/awesome",
+    "description": "A curated collection of useful lists and resources.",
+    "language": "Markdown",
+    "starredAt": "2025-02-14"
+  },
+  {
+    "name": "freeCodeCamp",
+    "owner": "freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "description": "An open-source learning platform for web development.",
+    "language": "TypeScript",
+    "starredAt": "2025-01-28"
+  },
+  {
+    "name": "vscode",
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/vscode",
+    "description": "A source-code editor with built-in debugging and extensions.",
+    "language": "TypeScript",
+    "starredAt": "2024-12-09"
+  }
+]
